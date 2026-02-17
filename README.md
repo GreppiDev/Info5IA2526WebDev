@@ -112,6 +112,11 @@
 
 ### [Cenni al GDPR e Implicazioni per la Gestione di Siti Web](./web/web-docs/gdpr/index.md)
 
+### Educazione Civica
+
+   1. [Intelligenza Artificiale - concetti di base, aspetti sociali, economici e ambientali](./civica/ai/index.md)
+
+
 ### Verso l'Esame di Stato
 
  1. [Traccia di informatica del 2017 - sessione ordinaria](./esame/tracce-svolte/2017/ordinaria/index.md)
