@@ -1,5 +1,7 @@
 # Intelligenza Artificiale - concetti di base, aspetti sociali, economici e ambientali
 
+![Copertina](./images/infografica_ai_civica.png)
+
 - [Intelligenza Artificiale - concetti di base, aspetti sociali, economici e ambientali](#intelligenza-artificiale---concetti-di-base-aspetti-sociali-economici-e-ambientali)
   - [Che cosa si intende per Intelligenza Artificiale](#che-cosa-si-intende-per-intelligenza-artificiale)
   - [Le categorie dell'Intelligenza Artificiale](#le-categorie-dellintelligenza-artificiale)
