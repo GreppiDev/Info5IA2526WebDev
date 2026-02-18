@@ -16,7 +16,8 @@
     - [L'AI Act dell'Unione Europea](#lai-act-dellunione-europea)
       - [L'approccio basato sul rischio](#lapproccio-basato-sul-rischio)
       - [Tempistiche di attuazione](#tempistiche-di-attuazione)
-      - [Sanzioni previste](#sanzioni-previste)
+      - [Sanzioni previste dall'AI Act](#sanzioni-previste-dallai-act)
+      - [Considerazioni sull'AI Act nell'ottica di uno sviluppatore di soluzioni IA](#considerazioni-sullai-act-nellottica-di-uno-sviluppatore-di-soluzioni-ia)
     - [La Risoluzione ONU sull'Intelligenza Artificiale](#la-risoluzione-onu-sullintelligenza-artificiale)
   - [Aspetti economici dell'Intelligenza Artificiale](#aspetti-economici-dellintelligenza-artificiale)
     - [I costi dell'AI generativa](#i-costi-dellai-generativa)
@@ -89,6 +90,10 @@ Il machine learning si articola in diverse tipologie di apprendimento, ciascuna 
 
 [Video introduttivo](https://youtu.be/q6kJ71tEYqM?si=g2rPfG6EmZij_Q4G)
 
+[Funzionamento di una rete neurale - parte 1 -  architettura di base](https://youtu.be/aircAruvnKk?si=Nx1Njg4XvhG5to5k)
+
+[Funzionamento di una rete neurale - parte 2 - backpropagation](https://youtu.be/IHZwWFHWa-w?si=GyMKdk95EK4sD9VE)
+
 Il Deep Learning (DL), traducibile come "apprendimento profondo", rappresenta un sottoinsieme del machine learning che ha rivoluzionato il campo dell'intelligenza artificiale negli ultimi decenni. A differenza del machine learning classico, il deep learning può sfruttare dataset etichettati per informare il proprio algoritmo nell'apprendimento supervisionato, ma non necessariamente richiede un dataset etichettato. È in grado di assimilare dati non strutturati nella loro forma grezza (come testo e immagini) e può determinare automaticamente l'insieme di caratteristiche che distinguono, ad esempio, una "pizza" da un "hamburger" o un "taco".
 
 Le reti neurali artificiali costituiscono l'architettura computazionale alla base del deep learning. Ispirate alla struttura del cervello umano, le reti neurali sono composte da strati (layer) di nodi interconnessi, ciascuno dei quali elabora informazioni e le trasmette agli strati successivi. Una rete neurale profonda (deep neural network) è caratterizzata da molteplici strati nascosti tra lo strato di input e quello di output, consentendo l'apprendimento di rappresentazioni gerarchiche sempre più astratte dei dati. Man mano che si generano sempre più big data, gli scienziati dei dati faranno sempre maggiore uso del machine learning e, in particolare, del deep learning.
@@ -122,11 +127,36 @@ L'AI Act adotta un approccio basato sul rischio, classificando i sistemi di inte
 ![Piramide dei rischi](./images/piramide_rischi_ai.png)
 *Figura 4: I quattro livelli di rischio secondo l'AI Act dell'Unione Europea*
 
-**Rischio inaccettabile**: Tutti i sistemi di AI considerati una minaccia chiara per la sicurezza, i mezzi di sussistenza e i diritti delle persone sono vietati. Esempi includono: manipolazione e inganno basati sull'AI; sfruttamento delle vulnerabilità degli individui; valutazione del rischio individuale di reati o predizione; raccolta indiscriminata di dati per il riconoscimento facciale; riconoscimento delle emozioni in ambienti lavorativi ed educativi; identificazione biometrica remota in tempo reale per scopi di applicazione della legge in spazi pubblici.
+**Rischio inaccettabile**: Tutti i sistemi di AI considerati una minaccia chiara per la sicurezza, i mezzi di sussistenza e i diritti delle persone sono vietati. Esempi includono:
 
-**Alto rischio**: I sistemi ad alto rischio includono tecnologie AI utilizzate in: infrastrutture critiche (es. trasporti) che potrebbero mettere a rischio la vita e la salute dei cittadini; istruzione o formazione professionale che può determinare l'accesso all'istruzione; componenti di sicurezza di prodotti (es. applicazioni AI in chirurgia robot-assistita); impiego e gestione dei lavoratori; servizi privati e pubblici essenziali (es. sistemi di scoring creditizio); applicazione della legge che può interferire con i diritti fondamentali; migrazione, asilo e controllo delle frontiere; amministrazione della giustizia e processi democratici.
+- Manipolazione e inganno basati sull'IA.​
+- Sfruttamento delle vulnerabilità degli individui.​
+- Valutazione del rischio individuale di reati o predizione.​
+- Raccolta indiscriminata di dati per il riconoscimento facciale.
+- Riconoscimento delle emozioni in ambienti lavorativi ed educativi.​
+- Identificazione biometrica remota in tempo reale per scopi di applicazione della legge in spazi pubblici.​
 
-I sistemi di AI ad alto rischio sono soggetti a obblighi rigorosi prima di poter essere immessi sul mercato: adeguata valutazione e mitigazione dei rischi; alta qualità dei dataset che alimentano il sistema per minimizzare rischi e risultati discriminatori; registrazione delle attività per garantire la tracciabilità dei risultati; documentazione dettagliata che fornisca tutte le informazioni necessarie sul sistema e sul suo scopo; informazioni chiare e adeguate all'utilizzatore; appropriate misure di supervisione umana; elevato livello di robustezza, sicurezza e accuratezza.
+**Alto rischio**: I sistemi ad alto rischio includono tecnologie AI utilizzate in:
+
+- Infrastrutture critiche (es. trasporti) che potrebbero mettere a rischio la vita e la salute dei cittadini
+- Sistemi utilizzati in istituti educativi che determinano l'accesso all'istruzione.​
+- Componenti di sicurezza di prodotti (es. applicazioni AI in chirurgia robot-assistita)
+- Impiego e gestione dei lavoratori
+- Servizi privati e pubblici essenziali (es. sistemi di scoring creditizio)
+- Applicazioni nell'ambito dell'applicazione della legge che possono interferire con i diritti fondamentali.​
+- Gestione di immigrazione, asilo e controllo delle frontiere
+- Amministrazione della giustizia e processi democratici.
+- Sistemi di identificazione biometrica a distanza.
+
+I sistemi di AI ad alto rischio sono soggetti a obblighi rigorosi prima di poter essere immessi sul mercato: 
+
+- Adeguata valutazione e mitigazione dei rischi
+- Alta qualità dei dataset che alimentano il sistema per minimizzare rischi e risultati discriminatori
+- Registrazione delle attività per garantire la tracciabilità dei risultati
+- Documentazione dettagliata che fornisca tutte le informazioni necessarie sul sistema e sul suo scopo
+- Informazioni chiare e adeguate all'utilizzatore
+- Appropriate misure di supervisione umana
+- Elevato livello di robustezza, sicurezza e accuratezza.
 
 **Rischio limitato**: Si riferisce ai rischi associati alla mancanza di trasparenza nell'uso dell'AI. L'AI Act introduce specifici obblighi di trasparenza per garantire che gli esseri umani siano informati quando necessario. Ad esempio, quando si utilizzano sistemi di AI come chatbot, le persone devono essere consapevoli di interagire con una macchina. I fornitori dovranno anche garantire che i contenuti generati dall'AI siano identificabili.
 
@@ -134,11 +164,59 @@ I sistemi di AI ad alto rischio sono soggetti a obblighi rigorosi prima di poter
 
 #### Tempistiche di attuazione
 
-L'AI Act prevede un'attuazione graduale delle sue disposizioni, con scadenze specifiche calcolate a partire dalla data di entrata in vigore del regolamento. I divieti di pratiche vietate sono applicabili entro 6 mesi dall'entrata in vigore; i codici di condotta devono essere implementati entro 9 mesi; le norme generali sull'AI, compresa la governance, entrano in vigore dopo 12 mesi; gli obblighi per i sistemi ad alto rischio saranno applicabili tra 24 e 36 mesi.
+L'AI Act prevede un'attuazione graduale delle sue disposizioni. A partire dall'entrata in vigore del 2 agosto 2024, le principali scadenze sono: **2 febbraio 2025** (divieti sulle pratiche vietate), **2 maggio 2025** (codici di condotta), **2 agosto 2025** (obblighi per i modelli di IA per finalità generali - GPAI), **2 agosto 2026** (obblighi di trasparenza e parte degli obblighi per i sistemi ad alto rischio, in particolare quelli dell'Allegato III), **2 agosto 2027** (restanti obblighi per i sistemi ad alto rischio, in particolare quelli dell'Allegato I).
 
-#### Sanzioni previste
+#### Sanzioni previste dall'AI Act
 
-Il regolamento stabilisce soglie di sanzione che gli Stati membri devono applicare: fino a 35 milioni di euro o al 7% del fatturato totale annuo a livello mondiale per le violazioni relative alle pratiche vietate o alla non conformità ai requisiti sui dati; fino a 15 milioni di euro o al 3% del fatturato per la mancata osservanza di altri requisiti; fino a 7,5 milioni di euro o all'1,5% del fatturato per la fornitura di informazioni inesatte o fuorvianti. Per ogni categoria di infrazione, la soglia è il minore dei due importi per le PMI e il maggiore per le altre aziende.
+Il regolamento stabilisce delle soglie di sanzione che devono essere prese in considerazione dagli Stati, che le applicheranno:
+
+- Fino a 35 milioni di euro o al 7% del fatturato totale annuo a livello mondiale dell'esercizio finanziario precedente (a seconda di quale sia il valore più alto) per le violazioni relative alle pratiche vietate o alla non conformità ai requisiti sui dati;
+- Fino a 15 milioni di euro o al 3% del fatturato totale annuo a livello mondiale dell'esercizio finanziario precedente per la mancata osservanza di uno qualsiasi degli altri requisiti o obblighi del regolamento, compresa la violazione delle norme sui modelli di IA per uso generale;
+- fino a 7,5 milioni di euro o all'1,5% del fatturato mondiale annuo totale dell'esercizio precedente per la fornitura di informazioni inesatte, incomplete o fuorvianti agli organismi notificati e alle autorità nazionali competenti in risposta a una richiesta;
+
+Per ogni categoria di infrazione, la soglia sarebbe il minore dei due importi per le PMI e il maggiore per le altre aziende.
+
+#### Considerazioni sull'AI Act nell'ottica di uno sviluppatore di soluzioni IA
+
+Il **Regolamento sull'Intelligenza Artificiale (AI Act)** rappresenta il primo quadro normativo completo a livello mondiale volto a regolamentare l'uso dell'intelligenza artificiale nell'Unione Europea. Questo regolamento adotta, come mostrato in precedenza, un approccio basato sul rischio, classificando i sistemi di IA in diverse categorie di rischio e stabilendo obblighi specifici per gli sviluppatori e gli utilizzatori di tali sistemi.​ Gli sviluppatori che intendono immettere sul mercato sistemi di IA devono adottare misure specifiche in base alla classificazione del rischio del loro sistema:​
+
+- **Per Sistemi ad Alto Rischio**:
+
+    - **Valutazione del Rischio**: Identificare e documentare i potenziali rischi associati al sistema di IA.
+    - **Implementazione di Misure di Mitigazione**: Adottare misure tecniche e organizzative per ridurre i rischi identificati.​
+    - **Documentazione e Registrazione**: Mantenere una documentazione dettagliata del sistema e registrarlo presso le autorità competenti.
+    - **Trasparenza e Informazione agli Utenti**: Fornire informazioni chiare e comprensibili sul funzionamento del sistema e sui diritti degli utenti.
+    - **Monitoraggio e Reporting**: Implementare sistemi per monitorare il funzionamento del sistema di IA e segnalare eventuali incidenti alle autorità.​
+
+- **Per Sistemi a Rischio Limitato**:
+
+    - **Obblighi di Trasparenza**: Informare gli utenti che stanno interagendo con un sistema di IA, garantendo la consapevolezza dell'uso dell'IA.​
+
+È fondamentale che gli sviluppatori inizino tempestivamente il processo di conformità all'AI Act, considerando le tempistiche di attuazione previste:
+
+- **Divieti di Pratiche Vietate**: Applicabili dal **2 febbraio 2025**.​
+- **Codici di Condotta**: Previsti entro il **2 maggio 2025**.​
+- **Obblighi per i Modelli GPAI**: Applicabili dal **2 agosto 2025**.​
+- **Obblighi per i Sistemi ad Alto Rischio**: Applicabili dal **2 agosto 2026** (Allegato III) e dal **2 agosto 2027** (Allegato I).
+
+Per chiarire la distinzione tra i due gruppi di sistemi ad alto rischio:
+
+| Categoria | Criterio di classificazione | Esempi tipici |
+|---|---|---|
+| **Allegato III** | Sistemi IA classificati ad alto rischio in base al **contesto d'uso** (ambiti sensibili) | selezione del personale (screening CV), sistemi in istruzione/formazione che incidono su accesso o valutazione, credit scoring e accesso a servizi essenziali, impieghi in giustizia/migrazione/law enforcement |
+| **Allegato I** | Sistemi IA che sono **componenti di sicurezza** (o il prodotto stesso) in prodotti già regolati dalla normativa UE di sicurezza prodotto | dispositivi medici con IA, macchine industriali con funzioni di sicurezza basate su IA, altri prodotti coperti dalla legislazione armonizzata UE che richiede valutazione di conformità |
+
+La non conformità può comportare sanzioni significative, fino a 35 milioni di euro o al 7% del fatturato annuo globale, a seconda di quale sia l'importo maggiore.
+In conclusione, l'AI Act stabilisce un quadro normativo chiaro per garantire che lo sviluppo e l'uso dell'intelligenza artificiale nell'UE siano sicuri, trasparenti e rispettosi dei diritti fondamentali. Gli sviluppatori devono valutare attentamente il livello di rischio dei loro sistemi e adottare le misure necessarie per garantire la conformità al regolamento.
+
+​L'**AI Act** prevede un'attuazione graduale delle sue disposizioni, con scadenze calcolate dall'entrata in vigore del **2 agosto 2024** (21 giorni dopo la pubblicazione in Gazzetta Ufficiale dell'Unione Europea). Ecco una spiegazione dettagliata delle tempistiche:​
+
+1. **Divieti di Pratiche Vietate**: Queste disposizioni sono applicabili dal **2 febbraio 2025**. Da questa data sono vietate le pratiche considerate inaccettabili, come la manipolazione dannosa o alcuni usi di riconoscimento biometrico in tempo reale in spazi pubblici. ​
+2. **Codici di Condotta**: Sono previsti entro il **2 maggio 2025**. I codici di condotta forniscono linee guida operative utili per facilitare la conformità. ​
+3. **Obblighi per i Modelli GPAI**: Sono applicabili dal **2 agosto 2025** e includono, tra l'altro, requisiti di trasparenza e documentazione per i fornitori di modelli di IA per finalità generali. ​
+4. **Obblighi per i Sistemi ad Alto Rischio**: Entrano in applicazione in due fasi: **2 agosto 2026** (sistemi ad alto rischio dell'Allegato III e obblighi di trasparenza) e **2 agosto 2027** (sistemi ad alto rischio dell'Allegato I). ​
+
+È essenziale che le organizzazioni inizino tempestivamente il processo di conformità all'AI Act, considerando queste scadenze, per garantire un'adeguata preparazione e conformità alle nuove normative.
 
 ### La Risoluzione ONU sull'Intelligenza Artificiale
 
@@ -150,14 +228,16 @@ L'Assemblea ha esortato tutti gli Stati membri a evitare o interrompere l'impieg
 
 ### I costi dell'AI generativa
 
-Il crescente numero di modelli di linguaggio di grandi dimensioni sul mercato offre notevoli capacità, ma dietro a tali modelli si celano costi sostanziali. La costruzione e l'addestramento di questi modelli sono estremamente costosi, richiedendo migliaia di unità di elaborazione grafica (GPU) per gestire i massicci set di dati da cui i modelli apprendono. Il grafico seguente confronta i costi di addestramento dei principali modelli AI:
+La costruzione e l'addestramento dei modelli di linguaggio di grandi dimensioni sono estremamente costosi, richiedendo migliaia di unita di elaborazione grafica (GPU) per gestire i massicci set di dati da cui i modelli apprendono. Secondo il paper accademico *"The rising costs of training frontier AI models" (Cottier et al., 2024)*, pubblicato su arXiv e citato nello *Stanford HAI AI Index Report 2024*, l'addestramento di GPT-4 ha avuto un costo stimato di 78 milioni di dollari, mentre Gemini 1.0 Ultra di Google ha raggiunto circa 192 milioni di dollari. Il grafico seguente illustra il confronto tra i costi di addestramento dei principali modelli AI:
 
 ![Costi di addestramento dei modelli AI](./images/costi_addestramento_modelli_AI.png)
 *Figura 5: Confronto dei costi di addestramento dei principali modelli AI (in milioni di dollari)*
 
-Come evidenziato dal grafico, i costi di addestramento sono cresciuti in modo esponenziale: mentre GPT-3 richiedeva circa 4,6 milioni di dollari, GPT-4 ha superato i 100 milioni e Gemini Ultra di Google ha raggiunto la cifra record di 192 milioni di dollari. Il solo costo delle GPU può ammontare a milioni di dollari: secondo una panoramica tecnica del modello linguistico GPT-3 di OpenAI, ogni sessione di addestramento richiedeva almeno 5 milioni di dollari di GPU.
+E importante precisare che il dato di 192 milioni di dollari per Gemini 1.0 Ultra deriva da una stima pubblicata nel 2024 nello *Stanford HAI AI Index Report* [^16]. Lo studio di *Cottier et al. (2024)* [^17] ha sviluppato una metodologia dettagliata per stimare i costi di training considerando tre approcci complementari: costo dell'hardware acquistato, costo del noleggio cloud (GPU-hours) e costi energetici e di personale R&D. Per Gemini 1.0 Ultra, il paper nota che il 49% dei costi e attribuito al personale R&D, una percentuale "insolitamente alta" rispetto ad altri modelli frontier. La versione specifica a cui si riferisce la stima e ***Gemini 1.0 Ultra***, la prima versione del modello Ultra annunciata da Google nel dicembre 2023 e rilasciata pubblicamente nel febbraio 2024.
 
-I costi non si limitano all'addestramento: l'esecuzione di inferenze sui modelli, una volta addestrati, è parimenti costosa. Si stima che il costo di inferenza di GPT-4 sia proiettato a 2,3 miliardi di dollari nel 2024, circa 15 volte il suo costo di addestramento. Questo evidenzia come l'uso esclusivo di modelli massicci possa risultare insostenibile a lungo termine, con alcune stime che indicano che oltre il 99% delle operazioni computazionali potrebbe essere inutilizzato. Il crescente utilizzo di grandi modelli sta inoltre spingendo verso l'alto i prezzi dei data center, dove avviene la computazione.
+I costi non si limitano all'addestramento: l'esecuzione di inferenze sui modelli, una volta addestrati, è parimenti costosa. Si stima che il costo di inferenza di GPT-4 sia stimato a 2,3 miliardi di dollari nel 2024, circa 15 volte il suo costo di addestramento. Questo evidenzia come l'uso esclusivo di modelli massicci possa risultare insostenibile a lungo termine, con alcune stime che indicano che oltre il 99% delle operazioni computazionali potrebbe essere inutilizzato. Il crescente utilizzo di grandi modelli sta inoltre spingendo verso l'alto i prezzi dei data center, dove avviene la computazione.
+
+Come evidenziato dal grafico, i costi di addestramento sono cresciuti in modo esponenziale: mentre GPT-3 richiedeva circa 4,6 milioni di dollari, GPT-4 ha superato i 100 milioni e Gemini Ultra di Google ha raggiunto la cifra record di 192 milioni di dollari. Il solo costo delle GPU può ammontare a milioni di dollari: secondo una panoramica tecnica del modello linguistico GPT-3 di OpenAI, ogni sessione di addestramento richiedeva almeno 5 milioni di dollari di GPU.
 
 ### Il mercato delle GPU e il predominio di NVIDIA
 
@@ -174,11 +254,11 @@ La posizione dominante di NVIDIA ha suscitato preoccupazioni riguardo al vendor 
 
 L'impennata dello sviluppo e dell'adozione dei sistemi di intelligenza artificiale ha sollevato legittime preoccupazioni riguardo al loro impatto ambientale, in particolare per quanto attiene al consumo energetico e alle emissioni di gas serra. Secondo l'International Energy Agency (IEA), nel 2024 i data center hanno consumato circa 415 terawatt-ore (TWh) di elettricità, pari a circa l'1,5% del consumo elettrico globale. Questo dato, sebbene significativo, deve essere contestualizzato: rappresenta l'intero settore dei data center, non solo l'AI, e include tutti i servizi cloud, lo streaming video, i servizi di posta elettronica e le infrastrutture web [^5].
 
-Le proiezioni dell'IEA indicano una crescita sostanziale: il consumo elettrico dei data center potrebbe superare i 1.000 TWh entro il 2030, con un tasso di crescita annuo del 15%, oltre quattro volte superiore alla crescita del consumo elettrico totale. Tuttavia, è fondamentale distinguere tra consumo energetico complessivo e impatto ambientale effettivo, poiché molti operatori di data center stanno investendo massicciamente in energia rinnovabile. Google, ad esempio, ha annunciato di aver ridotto le emissioni dei propri data center del 12% nel 2024 rispetto all'anno precedente, nonostante un incremento del 27% nel consumo elettrico, grazie a una maggiore quota di energia proveniente da fonti rinnovabili [^5][^13].
+Le proiezioni dell'IEA indicano una crescita sostanziale: il consumo elettrico dei data center potrebbe superare i 1.000 TWh entro il 2030, con un tasso di crescita annuo del 15%, oltre quattro volte superiore alla crescita del consumo elettrico totale. Tuttavia, è fondamentale distinguere tra consumo energetico complessivo e impatto ambientale effettivo, poiché molti operatori di data center stanno investendo massicciamente in energia rinnovabile. Google, ad esempio, ha annunciato di aver ridotto le emissioni dei propri data center del 12% nel 2024 rispetto all'anno precedente, nonostante un incremento del 27% nel consumo elettrico, grazie a una maggiore quota di energia proveniente da fonti rinnovabili [^5],[^13].
 
 ### Training vs Inference: dove si consuma di più?
 
-Una distinzione cruciale spesso trascurata nel dibattito pubblico riguarda la differenza tra il consumo energetico necessario per l'addestramento (training) di un modello AI e quello richiesto per la sua successiva utilizzazione (inference). L'addestramento di modelli su larga scala come GPT-4 ha richiesto, secondo stime del MIT Technology Review, circa 50 gigawatt-ore di elettricità, con emissioni stimate tra 12.000 e 15.000 tonnellate di CO2 equivalente. Questi valori, pur essendo significativi, rappresentano un evento una tantum per ciascuna versione del modello [^7][^8].
+Una distinzione cruciale spesso trascurata nel dibattito pubblico riguarda la differenza tra il consumo energetico necessario per l'addestramento (training) di un modello AI e quello richiesto per la sua successiva utilizzazione (inference). L'addestramento di modelli su larga scala come GPT-4 ha richiesto, secondo stime del MIT Technology Review, circa 50 gigawatt-ore di elettricità, con emissioni stimate tra 12.000 e 15.000 tonnellate di CO2 equivalente. Questi valori, pur essendo significativi, rappresentano un evento una tantum per ciascuna versione del modello [^7],[^8].
 
 L'inference, al contrario, ha un impatto cumulativo potenzialmente molto superiore a causa della scala globale dell'utilizzo. Tuttavia, ricerche recenti di Epoch AI hanno dimostrato che l'efficienza energetica per singola query è migliorata drasticamente: una query a ChatGPT che utilizza GPT-4o consuma circa 0,3 watt-ore, un valore dieci volte inferiore rispetto a stime precedenti relative a versioni meno ottimizzate. Secondo Google Cloud, l'impatto energetico medio per singolo prompt AI è equivalente a guardare la televisione per meno di nove secondi. Questo dato aiuta a contestualizzare le preoccupazioni circa l'"onerosità estrema" dell'AI in termini energetici: sebbene il volume complessivo delle query sia enorme, l'impatto unitario è contenuto e in progressiva riduzione [^9][^11].
 
@@ -259,3 +339,7 @@ Per i futuri professionisti dell'informatica, la sfida non è solo tecnica, ma a
 [^14]: Microsoft. "Environmental Sustainability Report 2025." Disponibile presso: <https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report>
 
 [^15]: Carbon Brief. "AI: Five charts that put data-centre energy use and emissions into context." (2025). Disponibile presso: <https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context>
+
+[^16]: Cottier et al. (2024). "The rising costs of training frontier AI models." Disponibile su arXiv: <https://arxiv.org/abs/2405.21015>
+
+[^17]: Stanford HAI. "AI Index Report 2024." Disponibile presso: <https://hai.stanford.edu/ai-index/2024-ai-index-report>
