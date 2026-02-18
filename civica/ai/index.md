@@ -90,13 +90,27 @@ Il machine learning si articola in diverse tipologie di apprendimento, ciascuna 
 
 [Video introduttivo](https://youtu.be/q6kJ71tEYqM?si=g2rPfG6EmZij_Q4G)
 
-[Funzionamento di una rete neurale - parte 1 -  architettura di base](https://youtu.be/aircAruvnKk?si=Nx1Njg4XvhG5to5k)
-
-[Funzionamento di una rete neurale - parte 2 - backpropagation](https://youtu.be/IHZwWFHWa-w?si=GyMKdk95EK4sD9VE)
-
 Il Deep Learning (DL), traducibile come "apprendimento profondo", rappresenta un sottoinsieme del machine learning che ha rivoluzionato il campo dell'intelligenza artificiale negli ultimi decenni. A differenza del machine learning classico, il deep learning può sfruttare dataset etichettati per informare il proprio algoritmo nell'apprendimento supervisionato, ma non necessariamente richiede un dataset etichettato. È in grado di assimilare dati non strutturati nella loro forma grezza (come testo e immagini) e può determinare automaticamente l'insieme di caratteristiche che distinguono, ad esempio, una "pizza" da un "hamburger" o un "taco".
 
 Le reti neurali artificiali costituiscono l'architettura computazionale alla base del deep learning. Ispirate alla struttura del cervello umano, le reti neurali sono composte da strati (layer) di nodi interconnessi, ciascuno dei quali elabora informazioni e le trasmette agli strati successivi. Una rete neurale profonda (deep neural network) è caratterizzata da molteplici strati nascosti tra lo strato di input e quello di output, consentendo l'apprendimento di rappresentazioni gerarchiche sempre più astratte dei dati. Man mano che si generano sempre più big data, gli scienziati dei dati faranno sempre maggiore uso del machine learning e, in particolare, del deep learning.
+
+Video introduttivi sul funzionamento delle reti neurali e dei modelli di intelligenza artificiale:
+
+[Funzionamento di una rete neurale - parte 1 -  architettura di base](https://youtu.be/aircAruvnKk?si=Nx1Njg4XvhG5to5k)
+
+[Funzionamento di una rete neurale - parte 2 (approfondimento) - discesa del gradiente](https://youtu.be/IHZwWFHWa-w?si=GyMKdk95EK4sD9VE)
+
+[Funzionamento di una rete neurale - parte 3 (approfondimento) - algoritmo di Backpropagation](https://youtu.be/Ilg3gGewQ5U?si=fNsNYINJ2TnMO8w5)
+
+[Funzionamento di una rete neurale - parte 4 (approfondimento) - Backpropagation calculus](https://youtu.be/tIeHLnjs5U8?si=OIBqv2nN7lLLVJVO)
+
+[Large Language Models explained briefly](https://youtu.be/LPZh9BOjkQs?si=P1DNppA5sA6oWtGE)
+
+[Transformers, the tech behind LLMs (approfondimento)](https://youtu.be/wjZofJX0v4M?si=w_7ITL5u9l9EThbv)
+
+[Neural networks - (approfondimento) a visual introduction by 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=1vmUxfbTz25jYkEG)
+
+[Come funziona un Transformer (approfondimento)](https://poloclub.github.io/transformer-explainer/)
 
 ## L'Intelligenza Artificiale Generativa
 
